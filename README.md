@@ -11,6 +11,6 @@ To download the latets release and run the script using defaulr Role (developer)
 
 > Invoke-RestMethod -Uri "https://raw.githubusercontent.com/munib00/workstation-setup/main/get-latestPackages.ps1" -OutFile "$env:temp\get-latestPackages.ps1"
 
-Then run the following command using **admin previllage** to download and run the workstation set up 
+Then run the following command using **admin privilege** to download and run the workstation set up 
 
 > powershell.exe -executionpolicy bypass -file $env:temp\get-latestPackages.ps1
