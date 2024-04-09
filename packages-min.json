@@ -1,0 +1,37 @@
+{
+  "chocolatey": [],
+  "winget": [
+    {
+      "id": "Microsoft.PowerShell",
+      "source": "winget"
+    },
+    {
+      "id": "Git.Git",
+      "source": "winget"
+    },
+    {
+      "id": "Microsoft.VisualStudioCode",
+      "override": "/mergetasks=addcontextmenufiles,addcontextmenufolders,!runcode /verysilent",
+      "source": "winget"
+    },
+    {
+      "id": "Microsoft.WindowsTerminal",
+      "source": "winget"
+    },
+    {
+      "id": "7zip.7zip",
+      "source": "winget"
+    }
+  ],
+  "powershellModule": [
+    {
+      "name": "posh-git"
+    },
+    {
+      "name": "PSReadLine"
+    },
+    {
+      "name": "PSRule"
+    }
+  ]
+}
