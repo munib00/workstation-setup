@@ -9,7 +9,7 @@ This is PowerShell script to set up workstation with needed software
 ## Automate Download and run latest release
 To download the latets release and run the script using defaulr Role (developer), you can run the following command to download the file from Github Repo
 
-> Invoke-RestMethod -Uri "https://raw.githubusercontent.com/101solution/workstation-setup/main/get-latestPackages.ps1" -OutFile "$env:temp\get-latestPackages.ps1"
+> Invoke-RestMethod -Uri "https://raw.githubusercontent.com/munib00/workstation-setup/main/get-latestPackages.ps1" -OutFile "$env:temp\get-latestPackages.ps1"
 
 Then run the following command using **admin previllage** to download and run the workstation set up 
 

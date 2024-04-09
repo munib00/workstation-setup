@@ -6,7 +6,7 @@ else {
     New-Item -Path $configPath -ItemType Directory -Force
 }
 
-$githubRepoUrl = "https://api.github.com/repos/101solution/workstation-setup/releases"
+$githubRepoUrl = "https://api.github.com/repos/munib00/workstation-setup/releases"
 Write-Output "Download latest release from github $githubRepoUrl..."
 $tags = Invoke-RestMethod -Uri $githubRepoUrl -ErrorAction SilentlyContinue
 $latestRelease = ($tags | Where-Object {(-not $_.draft) -and (-not $_.prerelase)} | Select-Object -first 1)
