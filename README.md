@@ -14,3 +14,6 @@ To download the latets release and run the script using defaulr Role (developer)
 Then run the following command using **admin privilege** to download and run the workstation set up 
 
 > powershell.exe -executionpolicy bypass -file $env:temp\get-latestPackages.ps1
+
+## Credit to original author
+https://github.com/101solution/workstation-setup
