@@ -10,10 +10,6 @@
       "source": "winget"
     },
     {
-      "id": "7zip.7zip",
-      "source": "winget"
-    },
-    {
       "id": "Microsoft.AzureCLI",
       "source": "winget"
     },
@@ -23,7 +19,7 @@
     },
        {
       "id": "Microsoft.VisualStudio.2022.Enterprise",
-      "override": "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.ManagedDesktop",
+      "override": "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.DslTools",
       "source": "winget"
     },
     {
