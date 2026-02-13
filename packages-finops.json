@@ -49,6 +49,26 @@
     {
       "id": "WiresharkFoundation.Wireshark",
       "source": "winget"
+    },
+    {
+      "id": "Microsoft.VisualStudioCode",
+      "source": "winget"
+    },
+    {
+      "id": "TortoiseGit.TortoiseGit",
+      "source": "winget"
+    },
+    {
+      "id": "GitHub.GitHubDesktop",
+      "source": "winget"
+    },
+    {
+      "id": "Fork.Fork",
+      "source": "winget"
+    },
+    {
+      "id": "Microsoft.WindowsTerminal",
+      "source": "winget"
     }
   ],
   "powershellModule": [] 
