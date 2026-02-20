@@ -27,7 +27,11 @@
       "source": "winget"
     },
     {
-      "id": "Microsoft.SQLServer.2019.Developer",
+      "id": "Microsoft.SQLServer.2022.Developer",
+      "source": "winget"
+    },
+    {
+      "id": "Microsoft.SQLServer.2022.Express",
       "source": "winget"
     },
     {
@@ -69,7 +73,11 @@
     {
       "id": "Microsoft.WindowsTerminal",
       "source": "winget"
-    }
+    },
+    {
+      "id": "WinSCP.WinSCP",
+      "source": "winget"
+    }    
   ],
   "powershellModule": [] 
   
